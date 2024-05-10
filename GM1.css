@@ -1,0 +1,100 @@
+body{
+    background-color: white;
+}
+.logo {
+    margin-left: 550px;
+}
+
+.header {
+  background-image:url(fotos/cuadrados.jpeg);
+  padding: 150px 0 20px 0;
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu .navbar ul li {
+  position: relative;
+  float: left;
+
+}
+
+.menu .navbar ul li a {
+  font-size: 18px;
+  padding: 20px;
+  color: black;
+  display: block;
+}
+
+.menu .navbar ul li a:hover {
+  color: red;
+}
+
+.logo1 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #02b1f4;
+  text-transform: uppercase;
+}
+
+#menu {
+  display: none;
+}
+
+.menu-icono {
+  width: 25px;
+}
+
+.menu label {
+  cursor: pointer;
+  display: none;
+}
+
+.about-conten {
+  display: flex;
+  justify-content: center;
+}
+
+.header-txt {
+  width: 50%;
+}
+
+.header-txt h1 {
+  line-height: 1;
+  color: #5e0083;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.header-txt p {
+  font-size: 16px;
+  color: #818181;
+  margin-bottom: 45px;
+}
+
+.header-img {
+  width: 10%;
+}
+
+ .footer {
+  background-image:url(cuadrados.jpeg);
+  padding: 50px;
+  min-height: 10vh;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
